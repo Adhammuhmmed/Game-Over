@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+   <script src="Js/auth.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Adham Muhmmed">
+    <meta name="Keywords" content="Game Over, موقع العاب">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- Font  Awsome  -->
+     <link rel="stylesheet" href="Css/all.min.css">
+     <!-- Bootstrab -->
+      <link rel="stylesheet" href="Css/bootstrap.min.css">
+      <!-- Main Style File -->
+       <link rel="stylesheet" href="Css/style.css">
+    <title>Home</title>
+</head>
+<body>
+<!-- LIGHT AND DARK MODE ICONE -->
+    <span class="position-fixed bottom-0 end-0 m-3 z-3">
+        <i role="button" id="mode" class="fa-regular fa-sun fa-xl p-3"></i>
+     </span>
+<!-- LIGHT AND DARK MODE ICONE -->
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg nav-bg border-bottom border-dark">
+    <div class="container">
+       <h5 class="navbar-brand mb-0 text-uppercase">
+          <img src="Images/logo-sm.png" alt="logo photo" style="max-width: 40px" /> GameOver
+       </h5>
+       <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+       >
+          <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse small navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 menu">
+             <li class="nav-item">
+                <a role="button" class="nav-link active text-uppercase" aria-current="page" data-category="mmorpg">mmorpg</a>
+             </li>
+             <li class="nav-item">
+                <a role="button" class="nav-link text-uppercase" data-category="shooter">shooter</a>
+             </li>
+             <li class="nav-item">
+                <a role="button" class="nav-link text-uppercase" data-category="sailing">sailing</a>
+             </li>
+             <li class="nav-item">
+                <a role="button" class="nav-link text-uppercase" data-category="permadeath">permadeath</a>
+             </li>
+             <li class="nav-item">
+                <a role="button" class="nav-link text-uppercase" data-category="superhero">superhero</a>
+             </li>
+             <li class="nav-item">
+                <a role="button" class="nav-link text-uppercase" data-category="pixel">pixel</a>
+             </li>
+             <li class="nav-item">
+                <a role="button" class="nav-link text-uppercase" data-category="pvp">pvp</a>
+             </li>
+             <li class="nav-item">
+                <a role="button" class="nav-link text-uppercase" data-category="action">action</a>
+             </li>
+          </ul>
+          <ul class="navbar-nav mb-2 mb-lg-0">
+             <li class="nav-item">
+                <span role="button" class="nav-link logout-btn">LogOut</span>
+             </li>
+          </ul>
+       </div>
+    </div>
+ </nav>
+<!-- NAVBAR -->
+<!-- HOME -->
+<div class="container my-4">
+    <h1 class="h4 mb-4">Top Free Moba Games For PC And Browser In 2024!</h1>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 g-3" id="gameData">
+   
+    </div>
+</div>
+<!-- LOADING -->
+ <div class="loading-screen d-none">
+    <span class="loader"></span>
+ </div>
+<!-- LOADING -->
+
+<!-- HOME -->
+
+
+    <!-- Bootstrab JS -->
+     <script src="Js/bootstrap.bundle.min.js"></script>
+     <!-- Login Js File -->
+    <script src="Js/home.js"></script>
+</body>
+</html>
+
+
